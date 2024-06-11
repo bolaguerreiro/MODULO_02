@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+  
+.foto-circular {
+  border-radius: 50%;
+  width: 100px;
+  height: 90px;
+  margin: 10px;
+}
+
+header {
+  padding: 5px;
+  background-color: rgb(139, 223, 223);
+  text-align: center;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;    
+  list-style-type:none;
+  padding: 2em 25vw;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+#sobre {
+  text-align: center;
+  padding: 5px;
+}
+
+.todasHabilidades  {
+  margin: 0;
+  padding: 5px;
+  background-color: lightgray;
+}
+
+.todasHabilidades > h2, .habilidades{
+  margin: 10px;
+  padding: 5px;
+}
+
+.habilidades {
+  background: white;
+}
+
+.habilidades > h3, ul {
+  margin: 4px;
+  font-size: 90%;
+}
